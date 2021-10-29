@@ -1,0 +1,46 @@
+.contact-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.651)), url("https://media.istockphoto.com/photos/food-delivery-man-on-the-bicycle-picture-id1255486620?b=1&k=20&m=1255486620&s=170667a&w=0&h=xcwFmeKd5QFPXS_VxSzxLK-4XZabg1m9afLyUq59QTU=");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .contact-text {
+  
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .contact-text h1{
+      color:#F7B614;
+      font-size: 75px;
+      margin-bottom: 30px;
+  }
+  .contact-text p{
+      color: silver !important;
+      width: 50%;
+      margin-bottom: 30px;
+  }
+
+
+  @media only screen and (max-width:896px){
+
+    .contact-text{
+        left: 45%;
+        
+    }
+    .contact-text h1{
+        font-size: 50px;
+    }
+
+    .contact-text p{
+        color: silver !important;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+  }
+  

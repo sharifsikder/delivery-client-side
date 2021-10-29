@@ -6,8 +6,8 @@ const Banner = () => {
     return (
 
           <div className="banner">           
-           <div class="contact-image">
-           <div class="contact-text">
+           <div class="banner-image">
+           <div class="banner-text">
            <h1>Food Delivery</h1>
            <p>Dentures actually improve our smiles and overall apperance. Not only they make us look better, but also make our life easier.</p>
            <Button variant="outline-warning" size="lg">Read More</Button>

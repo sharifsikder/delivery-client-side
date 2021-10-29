@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     background-color: #282932;
     padding:40px 0 30px 0;
-    margin-top: 80px;
+   
 }
 .contact{
     text-align: left !important;

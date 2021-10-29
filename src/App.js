@@ -7,11 +7,16 @@ import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import './App.css';
+import AuthProvider from './context/AuthProvider';
+import Login from './components/Login/Login';
+import Order from './components/Order/Order';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div>
-     
+     <AuthProvider>
+       
      <Router>
         <Header></Header>
       <Switch>
@@ -28,10 +33,17 @@ function App() {
       <Route path="/about">
         <About></About>
       </Route>
-      <Route path="/contact">
+      <PrivateRoute path="/order/:id">
+        <Order></Order>
+      </PrivateRoute>
+e      <Route path="/contact">
         <Contact></Contact>
       </Route>
+      <Route path="/login">
+        <Login></Login>
+      </Route>
       <Route path="/serviceDetails/:id">
+
       
       </Route>
 
@@ -42,6 +54,7 @@ function App() {
       </Switch>
       <Footer></Footer>
       </Router>
+     </AuthProvider>
     </div>
   );
 }

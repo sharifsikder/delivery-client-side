@@ -1,4 +1,4 @@
-.contact-image {
+.banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.671)), url("https://i.ibb.co/HTfsfgy/sam-moqadam-Zx-RHv6epg-MQ-unsplash.jpg");
     height: 600px;
     background-position: center;
@@ -7,8 +7,10 @@
     position: relative;
   }
   
-  
-  .contact-text {
+  .name, .email{
+    display: inline-block;
+  }
+  .banner-text {
   
     position: absolute;
     top: 40%;
@@ -16,12 +18,12 @@
     transform: translate(-50%, -50%);
     color: white;
   }
-  .contact-text h1{
+  .banner-text h1{
       color:#F7B614;
       font-size: 75px;
       margin-bottom: 30px;
   }
-  .contact-text p{
+  .banner-text p{
       color: silver !important;
       width: 50%;
       margin-bottom: 30px;
@@ -31,15 +33,15 @@
 
   @media only screen and (max-width:896px){
 
-    .contact-text{
+    .banner-text{
         left: 45%;
         
     }
-    .contact-text h1{
+    .banner-text h1{
         font-size: 50px;
     }
 
-    .contact-text p{
+    .banner-text p{
         color: silver !important;
         width: 90%;
         margin-bottom: 30px;

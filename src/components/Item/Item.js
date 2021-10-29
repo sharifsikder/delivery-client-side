@@ -6,7 +6,7 @@ import './Item.css'
 const Item = (props) => {
 
     console.log(props.item)
-    const{name, img, id, price, discreption} = props.item;
+    const{name, img, _id, price, discreption} = props.item;
     return (
         <div className="item">
         <Card  className="borders" style={{ width: '22rem' }}>
@@ -17,7 +17,7 @@ const Item = (props) => {
          {discreption}
          <h3 className="mt-2 price">{price}</h3>
          </Card.Text>
-         <Link to={`/serviceDetails/${id}`}> <Button className="mb-4 mt-2" variant="outline-success">Order Now</Button></Link>
+         <Link to={`/order/${_id}`}> <Button className="mb-4 mt-2" variant="outline-success">Order Now</Button></Link>
          </Card.Body>
          </Card>
     </div>

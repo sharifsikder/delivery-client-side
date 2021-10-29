@@ -5,7 +5,7 @@ import './Banner.css'
 const Banner = () => {
     return (
 
-          <div className="">           
+          <div className="banner">           
            <div class="contact-image">
            <div class="contact-text">
            <h1>Food Delivery</h1>

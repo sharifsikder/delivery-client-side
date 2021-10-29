@@ -1,17 +1,18 @@
 .contact-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.534)), url("https://media.istockphoto.com/photos/high-angle-view-asian-chinese-womans-hand-on-mobile-app-for-online-picture-id1300476665?b=1&k=20&m=1300476665&s=170667a&w=0&h=6yLWL7XmKiiMRheXK4E1cdcPOqp54y3Au-mxdbuodyQ=");
-    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.671)), url("https://i.ibb.co/HTfsfgy/sam-moqadam-Zx-RHv6epg-MQ-unsplash.jpg");
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
   
+  
   .contact-text {
   
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 40%;
+    left: 35%;
     transform: translate(-50%, -50%);
     color: white;
   }

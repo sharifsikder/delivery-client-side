@@ -1,0 +1,53 @@
+[
+    {
+        
+        "name":"Crispy Fry Burger",
+        "discreption":"There are only 2 dental specialties that only focus on dental esthetics...",
+        "price":"£500",
+        "img":"https://marketplace.foodotawp.com/wp-content/uploads/2021/04/01-1-1.png"
+    
+    },
+
+    {
+        
+        "name":"Fandango Burger",
+        "discreption":"Potato skins, chicken strips, toasted ravioli and mozzarella sticks served with...",
+        "price":"£600",
+        "img":"https://marketplace.foodotawp.com/wp-content/uploads/2021/04/01-2.png"
+        
+    },
+        
+    {
+  
+        "name":"Stuff Crust Pizza",
+        "discreption":"Sliced Chicken Poppers, Green Peppers, Mushrooms, Onions, Tomatoes, Ranch...",
+        "price":"£550",
+        "img":"https://marketplace.foodotawp.com/wp-content/uploads/2021/04/06-1-1.png"
+    
+    },
+    
+    {
+        
+        "name":"Cauliflower Pizza",
+        "discreption":"Special Cauliflower Pizza, Add your favourite toppings and create your own...",
+        "price":"£1000",
+        "img":"https://marketplace.foodotawp.com/wp-content/uploads/2021/04/01-1-2.png"
+       
+    },
+    
+    {
+      
+        "name":"Wrangler Burger",
+        "discreption":"Blackened chicken, sauteed onions and peppers smothered with pepper jack and...",
+        "price":"£600",
+        "img":"https://marketplace.foodotawp.com/wp-content/uploads/2021/04/02-2.png"
+    },
+
+    {
+       
+        "name":"Tikka Heat Pizza",
+        "discreption":"Medium size special tikka heart pizza Green Peppers, Mushrooms, Onions,...",
+        "price":"£650",
+        "img":"https://marketplace.foodotawp.com/wp-content/uploads/2021/04/02-1-1.png"
+    }
+]

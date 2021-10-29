@@ -13,10 +13,10 @@ const Header = () => {
            <>
          <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">  <img
-        src="http://gomoto.like-themes.com/wp-content/uploads/2019/06/logo_2x.png"
-        width="200"
-        height="50"
+  <Navbar.Brand href="#home"> <img
+        src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/foodota-logo-main.svg"
+        width="300"
+        height="60"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /></Navbar.Brand>

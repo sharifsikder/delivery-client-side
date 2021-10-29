@@ -8,7 +8,7 @@ const Footer = () => {
 
             <div className='contact'>
                <div className="mb-3">
-               <img src="http://gomoto.like-themes.com/wp-content/uploads/2019/06/logo_2x.png" width="200" height="50" className="d-inline-block align-top" alt="React Bootstrap logo"/>
+               <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/foodota-logo-main.svg" width="300" height="80" className="d-inline-block align-top" alt="React Bootstrap logo"/>
                </div>
                 <p><i class="fas fa-map-marker-alt"></i> 256 Elizaberth Ave Str, Wellco</p>
                 <p><i class="fas fa-phone"></i>  +012 (345) 678 99</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <span className='icon'><i class="fab fa-instagram"></i></span>
                 <span className='icon'><i class="fab fa-youtube"></i></span>
                 <div className="mt-3">
-                <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/foodota-logo-main.svg" width="300" height="80" className="d-inline-block align-top" alt="React Bootstrap logo"/>
+                <img src="https://demo7.clientica.org/wp-content/uploads/2020/12/Logo-02-02-1.svg" width="300" height="80" className="d-inline-block align-top" alt="React Bootstrap logo"/>
                 </div>
             </div>
 

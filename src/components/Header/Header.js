@@ -13,26 +13,38 @@ const Header = () => {
         
            <>
          <Navbar collapseOnSelect expand="lg" bg="dark" sticky="top" variant="dark">
-  <Container>
-  <Navbar.Brand href="#home"> <img
+        <Container>
+         <Navbar.Brand href="#home"> <img
         src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/foodota-logo-main.svg"
         width="300"
         height="60"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /></Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
       <Nav.Link as={Link} to="/home">Home</Nav.Link>
-      <Nav.Link as={Link} to="/items">Items</Nav.Link>
-      <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
+     
       <Nav.Link as={Link} to="/about">About</Nav.Link>
+      {   
+        user.email &&
+        <Nav.Link as={Link} to="/myOrders">My Orders</Nav.Link>
+      }
+      
+      {   
+        user.email &&
+        <Nav.Link as={Link} to="/allOrders">Manage All Orders</Nav.Link>
+      }
 
-    
+      {   
+        user.email &&
+        <Nav.Link as={Link} to="/addService">Add a New Service</Nav.Link>
+      }
+
       {
       
-      user.email && <span className="name" style={{ color: 'white' }}> Hello {user.displayName} </span>
+      user.email && <span className="name" style={{ color: 'white' }}>{user.displayName} </span>
       
       }
       {
@@ -40,8 +52,7 @@ const Header = () => {
         :
         <Nav.Link as={Link} to="/login">Login</Nav.Link>
       }
-     
-     
+      
     </Nav>
   </Navbar.Collapse>
   </Container>

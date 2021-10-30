@@ -13,7 +13,7 @@ const Contact = () => {
             <div class="contact-text">
             <h1>CONTACT US</h1>
     <p>Dentures actually improve our smiles and overall apperance. Not only they make us look better, but also make our life easier.</p>
-            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-warning">Read More</button>
   </div>
 </div>
 

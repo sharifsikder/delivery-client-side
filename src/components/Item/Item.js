@@ -1,10 +1,15 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuht from '../../hooks/useAuth';
 import './Item.css'
 
 const Item = (props) => {
 
+    const {isLoading} = useAuht();
+    if(isLoading){
+        return <Spinner animation="border" variant="danger" />
+    }
     console.log(props.item)
     const{name, img, _id, price, discreption} = props.item;
     return (

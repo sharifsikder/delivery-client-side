@@ -1,0 +1,9 @@
+.my-order{
+
+    background-color: teal;
+    display: inline-block;
+    color:white;
+    padding: 30px 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}

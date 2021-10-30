@@ -1,0 +1,46 @@
+.order-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.order-details{
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.details{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding-top: 40px;
+   
+}
+
+
+.order-form{
+    margin:30px 150px;
+  
+}
+.order-form input {
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+}
+.error{
+    color: red;
+}
+
+.form-section{
+    padding-top: 60px;
+    
+}
+
+.order-place{
+
+    background-color: midnightblue;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+}

@@ -1,7 +1,7 @@
 .banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.671)), url("https://i.ibb.co/HTfsfgy/sam-moqadam-Zx-RHv6epg-MQ-unsplash.jpg");
     height: 600px;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

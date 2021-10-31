@@ -9,7 +9,7 @@ const Items = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/items')
+        fetch('https://guarded-ridge-80572.herokuapp.com/items')
         .then(res => res.json())
         .then(data => setItems(data))
     }, [])

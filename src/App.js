@@ -12,6 +12,8 @@ import Login from './components/Login/Login';
 import Order from './components/Order/Order';
 import MyOrders from './components/MyOrders/MyOrders'
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import AddItem from './components/AddItem/AddItem';
+import AllOrders from './components/AllOrders/AllOrders';
 
 function App() {
   return (
@@ -45,6 +47,12 @@ function App() {
       </Route>
       <Route path="/myOrders">
         <MyOrders></MyOrders>
+      </Route>
+      <Route path="/allOrders">
+        <AllOrders></AllOrders>
+      </Route>
+      <Route path="/addItems">
+        <AddItem></AddItem>
       </Route>
       <Route path="*">
        <NotFound></NotFound>

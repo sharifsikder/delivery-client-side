@@ -8,8 +8,9 @@ const Item = (props) => {
 
     const {isLoading} = useAuht();
     if(isLoading){
-        return <Spinner animation="border" variant="danger" />
+    return <Spinner animation="border" variant="danger" />
     }
+    
     console.log(props.item)
     const{name, img, _id, price, discreption} = props.item;
     return (

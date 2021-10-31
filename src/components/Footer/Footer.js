@@ -21,10 +21,10 @@ const Footer = () => {
 
                 <div className='items-list'>
                 
-                <p>Dental Implants</p>
-                <p>Tooth Protection</p>
-                <p>Teeth Cleaning</p>
-                <p>Dental Calculus</p>
+                <p>Crispy Fry Burger</p>
+                <p>Stuff Crust Pizza</p>
+                <p>Tikka Heat Pizza</p>
+                <p>Wrangler Burger</p>
           
 
                 </div>

@@ -13,13 +13,13 @@ const Order = () => {
     const [item, setItem] = useState({})
 
     useEffect( () => {
-        fetch(`http://localhost:8000/items/${id}`)
+        fetch(`https://guarded-ridge-80572.herokuapp.com/items/${id}`)
         .then(res => res.json())
         .then(data => setItem(data))
     }) 
      const onSubmit = data => {
             console.log(data)
-            fetch(`http://localhost:8000/orders`, {
+            fetch(`https://guarded-ridge-80572.herokuapp.com/orders`, {
                 method: 'POST',
                 headers:{
                     'content-type':'application/json'

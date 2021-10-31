@@ -25,8 +25,7 @@ const Header = () => {
      <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
       <Nav.Link as={Link} to="/home">Home</Nav.Link>
-     
-      <Nav.Link as={Link} to="/about">About</Nav.Link>
+      <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
       {   
         user.email &&
         <Nav.Link as={Link} to="/myOrders">My Orders</Nav.Link>
@@ -39,7 +38,7 @@ const Header = () => {
 
       {   
         user.email &&
-        <Nav.Link as={Link} to="/addService">Add a New Service</Nav.Link>
+        <Nav.Link as={Link} to="/addItems">Add A New Items</Nav.Link>
       }
 
       {
@@ -52,7 +51,7 @@ const Header = () => {
         :
         <Nav.Link as={Link} to="/login">Login</Nav.Link>
       }
-      
+
     </Nav>
   </Navbar.Collapse>
   </Container>
